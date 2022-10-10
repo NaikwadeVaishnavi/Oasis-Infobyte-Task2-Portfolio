@@ -1,0 +1,66 @@
+.side-header{
+   
+    height: 100vh;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+nav{
+    display: flex;
+    width: 80%;
+    margin: 0;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px 20px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+    font-weight: bold;
+    color:black;
+}
+
+nav ul li a:hover{
+    color: red
+}
+.site-header-content{
+    
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    margin-left: 35%;
+    margin-top: 15%;
+    margin-bottom: 20px;    
+    line-height: 22px;
+    color: black;
+
+}
+.profile-pic{
+    height: 100%;
+    align-self: center;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+.resume-link{
+    color: #513cef;
+}
+.resume-link:hover{
+    color: red;
+}
+body{
+    margin :0;
+    text-align: right;
+    background-color: white;
+}
